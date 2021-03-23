@@ -1,0 +1,57 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Broiler Rearing",
+    "slug": "broiler-rearing"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Tomatoes Farming",
+    "slug": "tomatoes-farming"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Chicks management",
+    "slug": "chicks-management",
+    "overview": "A complete guide to how you can manage your broiler chicks.",
+    "created": "2021-03-22T17:58:43.919Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "The first day",
+    "description": "A guide on the first day you get your chicks."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Your daily feeds",
+    "description": "The type of feeds to give to your young chicks."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "Vaccinations",
+    "description": "A vacination guide to managing your young chicks."
+  }
+}
+]
