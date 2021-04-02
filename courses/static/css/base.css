@@ -90,6 +90,7 @@ h1 {
   position:absolute;
   left:50%;
   transform: translate(-50%);
+  width:80%;
 }
 .contents {
     width:20%;
