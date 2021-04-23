@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     'students.apps.StudentsConfig',
     'embed_video',
     'memcache_status',
-    'rest_framework'
+    'rest_framework',
+    'chat',
+    'channels'
 ]
 
 MIDDLEWARE = [
@@ -88,7 +90,8 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
+#asgi settings
+ASGI_APPLICATION = 'mamashamba.routing.application'
 #cache framework
 CACHES = {
         'default':{

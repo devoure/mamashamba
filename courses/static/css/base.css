@@ -91,6 +91,7 @@ h1 {
   left:50%;
   transform: translate(-50%);
   width:80%;
+  height:50%;
 }
 .contents {
     width:20%;
@@ -275,14 +276,14 @@ ul#course-modules li:hover {
 #chat {
     top: 64px;
     bottom:0;
-    position:fixed;
+    position: fixed;
     width:100%;
     overflow-y:scroll;
     padding-bottom:150px;
 }
 
 #chat .message {
-    background:#efefef;
+    background:black;
     padding:10px 20px;
     border-radius:4px;
     width:auto;
@@ -291,6 +292,7 @@ ul#course-modules li:hover {
     margin:10px 10px 0;
     min-width:440px;
     clear:both;
+    color:white;
 }
 
 #chat .message.me {
